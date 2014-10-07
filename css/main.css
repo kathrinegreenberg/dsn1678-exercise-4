@@ -45,7 +45,6 @@ section {
 	}
 }
 
-
 .shuttle {
 	width: 200px;
 	opacity: 0;
@@ -62,6 +61,7 @@ section {
 @-webkit-keyframes shuttle-fade {
 	0% {
 		opacity: 0;
+		transform: translateY(100px);
 	}
 	100% {
 		opacity: 1;
