@@ -29,9 +29,11 @@ section {
 }
 
 .js-dipper-fade {
-	-webkit-animation: dipper-fade 1s linear;
+	-webkit-animation: dipper-fade 1s linear forwards;
 }
-/*js is in front just to remind self that js will be affecting this*/
+/*js is in front just to remind self that js will be affecting this
+	animation-fill-mode: forwards
+	will tell the animation to sta at its end state after complete*/
 
 /*this is just the chrome prefix, dont forget the others*/
 @-webkit-keyframes dipper-fade {
