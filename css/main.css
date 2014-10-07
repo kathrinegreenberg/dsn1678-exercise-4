@@ -44,3 +44,26 @@ section {
 		opacity: 1;
 	}
 }
+
+
+.shuttle {
+	width: 200px;
+	opacity: 0;
+}
+
+.shuttle-section {
+	background: #f6a500;
+}
+
+.js-shuttle-fade {
+	-webkit-animation: shuttle-fade 1s linear forwards;
+}
+
+@-webkit-keyframes shuttle-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
