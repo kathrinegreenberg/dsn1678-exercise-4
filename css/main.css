@@ -25,4 +25,20 @@ section {
 
 .dipper {
 	width: 200px;
+	opacity: 0;
+}
+
+.js-dipper-fade {
+	-webkit-animation: dipper-fade 1s linear;
+}
+/*js is in front just to remind self that js will be affecting this*/
+
+/*this is just the chrome prefix, dont forget the others*/
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
